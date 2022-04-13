@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanulói adatfelvétel</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action = "" method="post">
+        <h1 style="text-align: center;">Tanuló Felvitel</h1>
+
+                <label for="keresztnev">Keresztnév:</label><br>
+                <input type="text" id="keresztnev" name="keresztnev"><br>
+                
+                <label for="vezeteknev">Vezetéknév:</label><br>
+                <input type="text" id="vezeteknev" name="vezeteknev"><br>
+                
+                <label for="lakcim">Lakcím:</label><br>
+                <input type="text" id="lakcim" name="lakcim"><br>
+               
+                <label for="Osztaly">Osztály:</label><br>
+                <input type="text" id="Osztaly" name="Osztaly"><br>
+         
+                <label for="Igazolvanyszam">Igazolványszám:</label><br>
+                <input type="text" id="Igazolvanyszam" name="Igazolvanyszam"><br>
+
+                <button  onclick="sendPost()" id="sub" type="submit" value="Submit">Leadás</button>
+            </form>
+            <script src="add.js">
+            </script>
+</body>
+</html>
